@@ -1,0 +1,23 @@
+
+# Python cache and virtual environment
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Dataset
+dataset/
+
+# Trained models
+*.keras
+*.h5
+*.weights.h5
+
+# Generated files
+best_hyperparameters.json
+*.log
+
+# Editor and OS files
+.vscode/
+.DS_Store
+Thumbs.db
